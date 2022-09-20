@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+     list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+}
+.body1{transition: 0.5s;
+    background-image: url(./7777\ 001.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    margin: 35px auto;
+    
+    width: 80%;
+    
+}
+header nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    align-items: center;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+}
+header ul li a {
+    color: black;
+    font-size: 25px;
+    font-weight: normal;
+
+}
+header nav ul a:hover{
+    color: rgb(238, 255, 0);
+  text-decoration: underline;
+  
+}
+.bg{
+    background-image: url();
+}
+section h1{
+    color: rgb(50, 186, 204);
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 150px;
+    text-align: center;
+}
+ section .box{
+     background:none;
+     margin: 250px ;
+    width: 100px;
+    height: 25px;
+    
+    text-align: center;
+    transform: scaleX(250px),scaleY(25px);
+}
+section .box button{
+    font-weight: 900;
+    background: none;
+    font-size: 50px;
+}
+
+.rasm{
+    transition: 0.5s;
+    background-image: url(./kalon_masjidi.jpg) ;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+    
+
+}
+.b{
+    display: none;
+}
